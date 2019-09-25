@@ -64,7 +64,7 @@ while parse_now < len(code):
 		print(chr(data[choosen]), end='')
 	elif x.lower() == ',':
 		moves_counter += 1
-		data[choosen] == ord(input('Program requires input: ' ))
+		data[choosen] == ord(input())
 	parse_now += 1
 file.close()
 print('Program ended by ' + str(moves_counter) + ' steps')
