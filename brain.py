@@ -8,8 +8,8 @@ if len(sys.argv) == 3:
 	bits = 2**int(sys.argv[2])
 else:
 	bits = 256
-print('Max number: ' + str(bits))
-print('File "'+ filename + '" started')
+print('Max number: ', str(bits))
+print('File "', filename, '" started')
 file = open(filename, 'r')
 code = file.read()
 choosen = 0
@@ -67,4 +67,4 @@ while parse_now < len(code):
 		data[choosen] == ord(input())
 	parse_now += 1
 file.close()
-print('Program ended by ' + str(moves_counter) + ' steps')
+print('Program ended by ', str(moves_counter), ' steps')
